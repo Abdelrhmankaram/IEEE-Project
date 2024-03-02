@@ -29,8 +29,92 @@
    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-body{
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+li {
+   list-style: none;
+}
+
+body {
    background-image: url("images/body-background/Group\ 66.webp");
    background-size: cover;
 }
 
+.board {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.title{
+   text-align: center;
+}
+
+.board-members {
+   overflow-x: auto;
+   white-space: nowrap;
+}
+
+.board-members::-webkit-scrollbar {
+   display: none;
+}
+
+.board-members > ul > li{
+   padding: 12px;
+}
+
+.board-members > ul > li > *{
+   user-select: none;
+   pointer-events: none;
+}
+
+.board-members > ul > li > .board-member-name{
+   font-weight: bold;
+   font-size: 1.5rem;
+}
+
+.board-members > ul > li > .board-member-branch{
+   font-size: 1rem;
+   color: #6c757d;
+}
+
+.carousel {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+}
+
+.board-member-image img {
+   width: auto;
+   height: 400px;
+   border-radius: 8px;
+   user-select: none;
+   pointer-events: none;
+}
+
+.board-member-details {
+   padding: 10px;
+}
+
+.board-member-name,
+.board-member-branch {
+   pointer-events: none;
+   user-select: none;
+}
+
+.container {
+   width: 75%;
+   text-align: center;
+}
+
+.title p{
+   font-size: 1.5rem;
+   font-weight: 900;
+   padding: 10px;
+   font-family: var(--font-family-monospace);
+}

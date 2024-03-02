@@ -1,18 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
     <div class="board">
-        <div class="title">
-            <h3>
-                Meet our Board.
-            </h3>
-            
+        <div class="container">
+            <div class="title">
+                <p>
+                    Meet our Board.
+                </p>
+                <span>
+                    Every Board Member with their Position
+                </span>
+
+                <div class="board-members wrapper">
+                    <ul class="carousel">
+                        <li>
+                            <div class="board-member-image">
+                                <img src="images/board/abdelrahman.jpg" alt="">
+                            </div>
+                            <div class="board-member-name">Abdelrhman Ashraf</div>
+                            <div class="board-member-branch">Photo-Video Vice</div>
+                        </li>
+                        <li>
+                            <div class="board-member-image">
+                                <img src="images/board/adnan.jpg" alt="">
+                            </div>
+                            <div class="board-member-name">Adnan Adel</div>
+                            <div class="board-member-branch">Embedded Head</div>
+                        </li>
+                        <li>
+                            <div class="board-member-image">
+                                <img src="images/board/ahmed mamdouh.jpg" alt="">
+                            </div>
+                            <div class="board-member-name">Ahmed Mamdouh</div>
+                            <div class="board-member-branch">Vice Technical</div>
+                        </li>
+                        <li>
+                            <div class="board-member-image">
+                                <img src="images/board/esraa dyaa.jpg" alt="">
+                            </div>
+                            <div class="board-member-name">Esraa Dyaa</div>
+                            <div class="board-member-branch">HR Head</div>
+                        </li>
+                        <li>
+                            <div class="board-member-image">
+                                <img src="images/board/hadeer magdy.jpg" alt="">
+                            </div>
+                            <div class="board-member-name">Hadeer Magdy</div>
+                            <div class="board-member-branch">PR Vice</div>
+                        </li>
+                        <li>
+                            <div class="board-member-image">
+                                <img src="images/board/jana ahmed.jpg" alt="">
+                            </div>
+                            <div class="board-member-name">Jana Ahmed</div>
+                            <div class="board-member-branch">FR Head</div>
+                        </li>
+                        <li>
+                            <div class="board-member-image">
+                                <img src="images/board/maram.jpg" alt="">
+                            </div>
+                            <div class="board-member-name">Maram Nasser</div>
+                            <div class="board-member-branch">Logistics Head</div>
+                        </li>
+                        <li>
+                            <div class="board-member-image">
+                                <img src="images/board/moaz.jpg" alt="">
+                            </div>
+                            <div class="board-member-name">Moaz Mostafa</div>
+                            <div class="board-member-branch">Treasurer</div>
+                        </li>
+                        <li>
+                            <div class="board-member-image">
+                                <img src="images/board/mohamed amr.jpg" alt="">
+                            </div>
+                            <div class="board-member-name">Mohamed Amro</div>
+                            <div class="board-member-branch">Vice Non-technical</div>
+                        </li>
+                        <li>
+                            <div class="board-member-image">
+                                <img src="images/board/mohamed ebrahim.jpg" alt="">
+                            </div>
+                            <div class="board-member-name">Mohamed Ibrahim</div>
+                            <div class="board-member-branch">HR Vice</div>
+                        </li>
+                        <li>
+                            <div class="board-member-image">
+                                <img src="images/board/mohamed eid.jpg" alt="">
+                            </div>
+                            <div class="board-member-name">Mohamed Osama</div>
+                            <div class="board-member-branch">Arduino Head</div>
+                        </li>
+                        <li>
+                            <div class="board-member-image">
+                                <img src="images/board/mohannad.jpg" alt="">
+                            </div>
+                            <div class="board-member-name">Mohannad Seiam</div>
+                            <div class="board-member-branch">Secretary</div>
+                        </li>
+                        <li>
+                            <div class="board-member-image">
+                                <img src="images/board/mostafa elkholy.jpg" alt="">
+                            </div>
+                            <div class="board-member-name">Mostafa ELkholy</div>
+                            <div class="board-member-branch">Logistics Vice</div>
+                        </li>
+                        <li>
+                            <div class="board-member-image">
+                                <img src="images/board/norhan.jpg" alt="">
+                            </div>
+                            <div class="board-member-name">Nourhan Salem</div>
+                            <div class="board-member-branch">Social Media Vice</div>
+                        </li>
+                        <li>
+                            <div class="board-member-image">
+                                <img src="images/board/omar khaled.jpg" alt="">
+                            </div>
+                            <div class="board-member-name">Omar Khaled</div>
+                            <div class="board-member-branch">Chairman</div>
+                        </li>
+                        <li>
+                            <div class="board-member-image">
+                                <img src="images/board/rawan.jpg" alt="">
+                            </div>
+                            <div class="board-member-name">Rawan Waleed</div>
+                            <div class="board-member-branch">Media Head</div>
+                        </li>
+                        <li>
+                            <div class="board-member-image">
+                                <img src="images/board/renad.jpg" alt="">
+                            </div>
+                            <div class="board-member-name">Renad Ahmed</div>
+                            <div class="board-member-branch">PR Head</div>
+                        </li>
+                        <li>
+                            <div class="board-member-image">
+                                <img src="images/board/sallam.jpg" alt="">
+                            </div>
+                            <div class="board-member-name">Mohamed Sallam</div>
+                            <div class="board-member-branch">Web Head</div>
+                        </li>
+                        <li>
+                            <div class="board-member-image">
+                                <img src="images/board/sarg.jpg" alt="">
+                            </div>
+                            <div class="board-member-name">Ahmed Sarg</div>
+                            <div class="board-member-branch">Flutter Head</div>
+                        </li>
+                        <li>
+                            <div class="board-member-image">
+                                <img src="images/board/shahd.jpg" alt="">
+                            </div>
+                            <div class="board-member-name">Shahd Mohamed</div>
+                            <div class="board-member-branch">Graphic Vice</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
