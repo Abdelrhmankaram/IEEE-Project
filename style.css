@@ -64,7 +64,7 @@ body {
 }
 
 .board-members > ul > li{
-   padding: 12px;
+   margin: 12px;
 }
 
 .board-members > ul > li > *{
@@ -95,6 +95,12 @@ body {
    border-radius: 8px;
    user-select: none;
    pointer-events: none;
+   filter: grayscale();
+   transition: all 0.3s ease-in-out;
+}
+
+.board-members ul li:hover .board-member-image img{
+   filter: none;
 }
 
 .board-member-details {
