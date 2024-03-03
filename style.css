@@ -73,7 +73,8 @@ body {
 }
 
 .board-members>ul>li {
-   margin: 12px;
+   margin: 8px;
+   padding: 6px;
 }
 
 .board-members>ul>li>* {
@@ -98,11 +99,9 @@ body {
    display: flex;
 }
 
-
-
 .board-member-image img {
    width: auto;
-   height: 265px;
+   height: 260px;
    border-radius: 100%;
    user-select: none;
    pointer-events: none;
@@ -128,7 +127,7 @@ body {
 }
 
 .container {
-   width: 75%;
+   width: 76%;
    text-align: center;
 }
 
