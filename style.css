@@ -175,3 +175,11 @@ body {
    opacity: 1;
    transition: all 0.3s ease-in-out;
 }
+
+.hero-image img {
+   width: auto;
+   height: 400px;
+   border-radius: 8px;
+   user-select: none;
+   pointer-events: none;
+}
