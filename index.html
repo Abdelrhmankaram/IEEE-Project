@@ -7,8 +7,19 @@
     <title>IEEE</title>
 </head>
 <body>
-    
-    
+    <div id="pre-loader"></div>
+    <script>
+        var loader = document.getElementById("pre-loader");
+
+        window.addEventListener("load", function() {
+        setTimeout(function() {
+            loader.style.opacity = "0"; // Fade out
+            setTimeout(function() {
+            loader.style.display = "none"; // Hide loader
+            }, 500); // Wait for the transition to finish
+        }, 1500); // Time before fading out
+        });
+    </script>
     
 
     <div class="what-we-do"></div>
