@@ -25,9 +25,17 @@
    --breakpoint-md: 768px;
    --breakpoint-lg: 992px;
    --breakpoint-xl: 1200px;
-   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+   --e-global-typography-primary-font-family: "Raleway";
+   --e-global-typography-primary-font-weight: 800;
+   --e-global-typography-secondary-font-family: "Roboto";
+   --e-global-typography-secondary-font-weight: 700;
+   --e-global-typography-text-font-family: "Roboto";
+   --e-global-typography-text-font-weight: 400;
+   --e-global-typography-accent-font-family: "Roboto";
+   --e-global-typography-accent-font-weight: 500;
+
 }
+
 * {
    margin: 0;
    padding: 0;
@@ -47,9 +55,10 @@ body {
    display: flex;
    justify-content: center;
    align-items: center;
+   -webkit-font-smoothing: antialiased;
 }
 
-.title{
+.title {
    text-align: center;
 }
 
@@ -62,21 +71,21 @@ body {
    display: none;
 }
 
-.board-members > ul > li{
+.board-members>ul>li {
    margin: 12px;
 }
 
-.board-members > ul > li > *{
+.board-members>ul>li>* {
    user-select: none;
    pointer-events: none;
 }
 
-.board-members > ul > li > .board-member-name{
+.board-members>ul>li>.board-member-name {
    font-weight: bold;
    font-size: 1.5rem;
 }
 
-.board-members > ul > li > .board-member-branch{
+.board-members>ul>li>.board-member-branch {
    font-size: 1rem;
    color: #6c757d;
 }
@@ -98,8 +107,9 @@ body {
    transition: all 0.3s ease-in-out;
 }
 
-.board-members ul li:hover .board-member-image img{
+.board-members ul li:hover .board-member-image img {
    filter: none;
+   scale: 102%;
 }
 
 .board-member-details {
@@ -117,20 +127,36 @@ body {
    text-align: center;
 }
 
-.title p{
-   font-size: 1.5rem;
-   font-weight: 900;
-   padding: 10px;
-   font-family: var(--font-family-monospace);
+.title{
+   margin: 10px;
 }
 
-.title span{
-   font-weight: 900;
+.title p {
+   font-size: 2.5rem;
+   font-weight: 800;
+   padding: 10px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+.title span {
+   font-weight: 100;
    padding: 10px;
    color: #6c757d;
-   font-family: var(--font-family-monospace);
+   font-family: var(--e-global-typography-secondary-font-family);
+   
 }
 
-.board-members ul li .board-member-name{
+.board-member-name {
+   font-family: var(--e-global-typography-primary-font-family);
+   font-weight: 100;
+   font-size: small;
+   color: var(--blue);
+   padding: 10px;
+}
 
+.board-member-branch {
+   font-family: var(--e-global-typography-primary-font-family);
+   font-weight: 100;
+   font-size: small;
 }
