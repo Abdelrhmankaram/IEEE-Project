@@ -40,6 +40,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   transition: all 0.3s ease-in-out;
 }
 
 li {
@@ -104,12 +105,15 @@ body {
    user-select: none;
    pointer-events: none;
    filter: grayscale();
-   transition: all 0.3s ease-in-out;
 }
 
 .board-members ul li:hover .board-member-image img {
    filter: none;
    scale: 102%;
+}
+
+.board-members ul li:hover .board-member-name{
+   color: var(--danger);
 }
 
 .board-member-details {
@@ -136,7 +140,7 @@ body {
    font-weight: 800;
    padding: 10px;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   
+   color: var(--blue);
 }
 
 .title span {
@@ -151,8 +155,8 @@ body {
    font-family: var(--e-global-typography-primary-font-family);
    font-weight: 100;
    font-size: small;
-   color: var(--blue);
    padding: 10px;
+   
 }
 
 .board-member-branch {
