@@ -57,6 +57,7 @@ body {
    justify-content: center;
    align-items: center;
    -webkit-font-smoothing: antialiased;
+   flex-direction: column;
 }
 
 .title {
@@ -189,6 +190,7 @@ body {
    justify-content: center;
    align-items: center;
    -webkit-font-smoothing: antialiased;
+   flex-direction: column;
 }
 
 .hero-members {
@@ -220,4 +222,21 @@ body {
 .hero-members ul li:hover .hero-image img {
    filter: none;
    scale: 105%;
+}
+
+.partner{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   -webkit-font-smoothing: antialiased;
+   flex-direction: column;
+}
+
+.partner-image img{
+   width: auto;
+   height: 400px;
+}
+
+.partner .title p{
+   font-size: 2rem;
 }
