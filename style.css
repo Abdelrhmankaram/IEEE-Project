@@ -98,18 +98,19 @@ body {
    display: flex;
 }
 
+
+
 .board-member-image img {
    width: auto;
-   height: 400px;
-   border-radius: 8px;
+   height: 265px;
+   border-radius: 100%;
    user-select: none;
    pointer-events: none;
-   filter: grayscale();
 }
 
 .board-members ul li:hover .board-member-image img {
    filter: none;
-   scale: 102%;
+   scale: 105%;
 }
 
 .board-members ul li:hover .board-member-name{
