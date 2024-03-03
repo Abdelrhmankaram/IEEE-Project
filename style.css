@@ -184,3 +184,41 @@ body {
    user-select: none;
    pointer-events: none;
 }
+
+.heros {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   -webkit-font-smoothing: antialiased;
+}
+
+.hero-members {
+   overflow-x: auto;
+   white-space: nowrap;
+}
+
+.hero-members::-webkit-scrollbar {
+   display: none;
+}
+
+.hero-members>ul>li {
+   margin: 12px;
+}
+
+.hero-members>ul>li>* {
+   user-select: none;
+   pointer-events: none;
+}
+
+.hero-image img {
+   width: auto;
+   height: 357px;
+   border-radius: 5%;
+   user-select: none;
+   pointer-events: none;
+}
+
+.hero-members ul li:hover .hero-image img {
+   filter: none;
+   scale: 105%;
+}
