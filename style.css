@@ -55,11 +55,14 @@ its not a final
 */
 .awaited-event{
    position: relative;
+   text-align: center;
 }
 .awaited-event > .new-event{
    position: relative;
    width: 100%;
    height: 80px;
+   display: flex;
+   flex-direction: column;
 }
 
 .awaited-event > .new-event> h2{
@@ -79,6 +82,7 @@ its not a final
 .container-awaited{
    display: flex;
    justify-content: space-around;
+   margin-top: 40px;
 }
 
 
