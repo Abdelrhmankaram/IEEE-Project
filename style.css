@@ -43,6 +43,9 @@
   transition: all 0.3s ease-in-out;
 }
 
+a{
+  text-decoration: none;
+}
 
 /* 
 
@@ -135,7 +138,7 @@ its not a final
 }
 
 
-.awaited-event >.container-awaited > .event-outcomes > .our-links > .button-56 {
+.awaited-event >.container-awaited > .event-outcomes > .our-links > .button-56 , body > header > .container > .navbar > .button-56  {
    align-items: center;
    background-color: #007bff;
    border: 2px solid #111;
@@ -159,7 +162,7 @@ its not a final
    touch-action: manipulation;
  }
  
- .awaited-event >.container-awaited > .event-outcomes > .our-links > .button-56:after {
+ .awaited-event >.container-awaited > .event-outcomes > .our-links > .button-56:after , body > header > .container > .navbar > .button-56:after {
    background-color: #111;
    border-radius: 8px;
    content: "";
@@ -174,7 +177,7 @@ its not a final
    z-index: -1;
  }
  
- .awaited-event >.container-awaited > .event-outcomes > .our-links > .button-56:hover:after {
+ .awaited-event >.container-awaited > .event-outcomes > .our-links > .button-56:hover:after , body > header > .container > .navbar > .button-56:hover:after {
    transform: translate(0, 0);
  }
  
@@ -189,7 +192,7 @@ its not a final
  }
  
  
- .awaited-event >.container-awaited > .event-outcomes > .our-links > .button-56:hover {
+ .awaited-event >.container-awaited > .event-outcomes > .our-links > .button-56:hover , body > header > .container > .navbar > .button-56:hover {
    outline: 0;
  }
  
@@ -208,7 +211,7 @@ its not a final
 
 
 
- .awaited-event >.container-awaited > .event-outcomes > .our-links > .button-56 > a{
+ .awaited-event >.container-awaited > .event-outcomes > .our-links > .button-56 > a , body > header > .container > .navbar > .button-56 > a{
    text-decoration: none;
    color: #ffffff;
    font-family: sans-serif;
@@ -322,7 +325,8 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-header.sticky{
+header .sticky{
+  height: 5%;
    padding: 5px 100px;
    background-color: var(--blue);
 }
@@ -343,6 +347,10 @@ header .container .navbar .logo {
   display: flex;
   position: relative;
   text-decoration: none;
+}
+
+.logo img{
+  width: 140px;
 }
 
 body > header > div > div > nav > ul {
