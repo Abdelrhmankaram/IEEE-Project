@@ -43,6 +43,271 @@
    transition: all 0.3s ease-in-out;
 }
 
+
+/* 
+
+Mohamed maher - our awaited event section 
+
+its not a final 
+    - check fonts
+    - check colors
+
+*/
+.awaited-event{
+   position: relative;
+}
+.awaited-event > .new-event{
+   position: relative;
+   width: 100%;
+   height: 80px;
+}
+
+.awaited-event > .new-event> h2{
+
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -80%);
+   font-size: 2.5rem;
+   font-weight: 800;
+   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+   color: #007bff;
+   padding: 10px;
+}
+
+
+.container-awaited{
+   display: flex;
+   justify-content: space-around;
+}
+
+
+.awaited-event > .container-awaited > .event-outcomes{
+   height: 450px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+.awaited-event > .container-awaited > .event-outcomes > .cards{
+   position: relative;
+   display: flex;
+   /* gap: 20px; */
+}
+.awaited-event > .container-awaited > .event-outcomes > .cards > .icon-card{
+   width: 50px;
+   margin-right: 45px;
+}
+.awaited-event > .container-awaited > .event-outcomes > .cards > .icon-card>img{
+   width: 50px;
+   scale: 1.4;
+   position: absolute;
+   top: 30%;
+}
+
+.awaited-event > .container-awaited > .event-outcomes > .cards > .para > h2{
+   margin: 15px 0px;
+   font-size: 22px;
+   color: #1c1c24;
+   font-family: sans-serif;
+   font-weight: 800;
+   line-height: 1.2;
+}
+
+
+.awaited-event > .container-awaited > .event-outcomes > .cards > .para > p{
+   color: #5a5a5a;
+   font-family: sans-serif;
+   position: relative;
+   transform: translateX(15px);
+}
+
+.awaited-event > .container-awaited > .event-outcomes > .cards > .para > p::before{
+   content: "";
+   background-color: #212529;
+   position: absolute;
+   right: 102%;
+   width: 4px;
+   height: 100%;
+}
+
+
+.awaited-event >.container-awaited > .event-outcomes > .our-links > .button-56 {
+   align-items: center;
+   background-color: #007bff;
+   border: 2px solid #111;
+   border-radius: 8px;
+   box-sizing: border-box;
+   color: #111;
+   cursor: pointer;
+   display: flex;
+   font-family: Inter,sans-serif;
+   font-size: 16px;
+   height: 48px;
+   justify-content: center;
+   line-height: 24px;
+   max-width: 100%;
+   padding: 0 25px;
+   position: relative;
+   text-align: center;
+   text-decoration: none;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+ }
+ 
+ .awaited-event >.container-awaited > .event-outcomes > .our-links > .button-56:after {
+   background-color: #111;
+   border-radius: 8px;
+   content: "";
+   display: block;
+   height: 48px;
+   left: 0;
+   width: 100%;
+   position: absolute;
+   top: -2px;
+   transform: translate(8px, 8px);
+   transition: transform .2s ease-out;
+   z-index: -1;
+ }
+ 
+ .awaited-event >.container-awaited > .event-outcomes > .our-links > .button-56:hover:after {
+   transform: translate(0, 0);
+ }
+ 
+ .awaited-event >.container-awaited > .event-outcomes > .our-links >:nth-child(1):active {
+   background-image: linear-gradient(-179deg, #5690FF 0, #387DFF 97%);
+   outline: 0;
+ }
+
+ .awaited-event >.container-awaited > .event-outcomes > .our-links > :nth-child(2):active {
+   background-color: #c1c1c1;
+   outline: 0;
+ }
+ 
+ 
+ .awaited-event >.container-awaited > .event-outcomes > .our-links > .button-56:hover {
+   outline: 0;
+ }
+ 
+
+
+ .awaited-event >.container-awaited > .event-outcomes > .our-links{
+   position: relative;
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 20px;
+ }
+
+ .awaited-event >.container-awaited > .event-outcomes > .our-links > :nth-child(2){
+   background-color: #ffffff;
+ }
+
+
+
+ .awaited-event >.container-awaited > .event-outcomes > .our-links > .button-56 > a{
+   text-decoration: none;
+   color: #ffffff;
+   font-family: sans-serif;
+   font-weight: bold;
+ }
+
+
+ .awaited-event >.container-awaited > .event-outcomes > .our-links > :nth-child(2) > a{
+   text-decoration: none;
+   color: #007bff;
+   font-family: sans-serif;
+   font-weight: bold;
+ }
+
+/* ========================================================================== */
+/* ========================================================================== */
+
+
+
+
+.awaited-event > .container-awaited > .spirit-cover-card {
+   width: 50%;
+   height: 450px;
+   position: relative;
+   cursor: pointer;
+ }
+ .awaited-event > .container-awaited > .spirit-cover-card .cover-box {
+   width: 100%;
+   height: 100%;
+   border-radius: inherit;
+ }
+ .awaited-event > .container-awaited > .spirit-cover-card .cover-box img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   object-position: 50% 90%;
+   border-radius: inherit;
+   transition: 0.5s ease-in-out;
+ }
+ 
+ .awaited-event > .container-awaited > .spirit-cover-card::after {
+   content: "";
+   position: absolute;
+   inset: 0;
+   border: 2px solid white;
+   border-radius: inherit;
+   opacity: 0;
+   transition: 0.4s ease-in-out;
+ }
+ 
+ .awaited-event > .container-awaited > .spirit-cover-card:hover img {
+   filter: grayscale(1) brightness(0.4);
+ }
+ .awaited-event > .container-awaited > .spirit-cover-card:hover::after {
+   opacity: 1;
+   inset: 20px;
+ }
+ 
+ .awaited-event > .container-awaited > .spirit-cover-card > .content {
+   width: 80%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+ }
+ 
+ .awaited-event > .container-awaited > .spirit-cover-card > .content h2,
+ .content p {
+   opacity: 0;
+   transition: 0.4s 0.2s ease;
+ }
+ .awaited-event > .container-awaited > .spirit-cover-card > .content h2 {
+   font-size: 2.5rem;
+   font-weight: 800;
+   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+   color: #ffffff;
+   margin-bottom: 12px;
+   /* scale: 0.7; */
+ }
+ .awaited-event > .container-awaited > .spirit-cover-card > .content p {
+   font-size: 15px;
+   line-height: 1.5;
+   color: #ffffff;
+   transform: translateY(50%);
+   font-family: sans-serif;
+ }
+ .awaited-event > .container-awaited > .spirit-cover-card:hover .content h2 {
+   /* scale: 1; */
+   opacity: 1;
+ }
+ .awaited-event > .container-awaited > .spirit-cover-card:hover .content P {
+   opacity: 1;
+   transform: translateY(0);
+ }
+
+/* end of awaited event section */
+
+
+
+
+
+
 li {
    list-style: none;
 }
