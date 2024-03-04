@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/76cd67f664.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto%3Aregular%2C400%2C700%2C900%7CRaleway%3A800%2C400%2C700%2C900&amp;display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="images/IEEE_icon.ico" type="image/x-icon">
     <title>IEEE</title>
 </head>
-<body>
-    <div id="pre-loader"></div>
+<body style="background-image: url(images/body-background/Group\ 66.webp);">
+    <div id="pre-loader" style="z-index: 1000000;"></div>
     <script>
         var loader = document.getElementById("pre-loader");
 
@@ -19,13 +20,57 @@
             setTimeout(function() {
             loader.style.display = "none";
             }, 500);
-        }, 3000); 
+        }, 1500); 
+        });
+
+        window.addEventListener("scroll",function(){
+            var header = document.querySelector(".navbar");
+            header.classList.toggle("sticky",window.scrollY>0);
         });
     </script>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
 
+    <header style="transition: all ease-in-out 1s;">
+        <div class="container">
+          <div class="navbar">
+            <a class="logo">
+              <img
+                src="images/logo/logo.png"
+                alt=""
+                width="245px"
+              />
+            </a>
+            <nav>
+              <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Events</a></li>
+                <li>
+                  <a href="" class="more">More <i class="fa-solid fa-caret-down"></i></a>
+                  <ul class="submenu">
+                    <li><a href="">Our Activities</a></li>
+                    <li><a href="">IEEE TV</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Blogs</a></li>
+                  </ul>
+                </li>
+                <li><a href=""></a></li>
+              </ul>
+            </nav>
+            <button class="button-56" role="button"><a href="https://ieee-bub.org/spirit_event_reg.php" target="_blank" rel="noopener noreferrer">Contact Us</a></button>
+          </div>
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="left">
+            <h2>Hi, Friend!</h2>
+            <h4>Come see how our journey is going, and maybe be a part of it?</h4>
+        </div>
+        <div class="right"><img src="images/logo/logo.png" alt=""></div>
+    </div> 
 
 
        <!-- Mohamed Maher - Our Awaited Event section -->
