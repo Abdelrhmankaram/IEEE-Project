@@ -219,12 +219,6 @@ its not a final
    font-weight: bold;
  }
 
-/* ========================================================================== */
-/* ========================================================================== */
-
-
-
-
 .awaited-event > .container-awaited > .spirit-cover-card {
    width: 50%;
    height: 450px;
@@ -303,9 +297,75 @@ its not a final
 
 /* end of awaited event section */
 
+/* ========================================================================== */
+/* ========================================================================== */
 
+/* start of section Our Latest Event */
+/*-----------------------------------------------------------*/
+.container-latest h1{
+   font-size: 2.5rem;
+   font-weight: 800;
+   /* padding: 10px; */
+   padding-left: 40%;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: var(--blue);
+}
+.container-latest .p1{
+   font-weight: 100;
+   padding: 10px;
+   padding-left: 43%;
+   color: #6c757d;
+   font-family: var(--e-global-typography-secondary-font-family);
+}
+.container-latest .p2{
+   font-weight: 100;
+   color: #6c757d;
+   font-family: var(--e-global-typography-secondary-font-family);
+}
+.content {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.content .right-item {
+     margin-left: 10%;
+     margin-right: 15%;
+  }
+ h2{
+   margin: 15px 0px;
+   font-size: 22px;
+   color: #1c1c24;
+   font-family: sans-serif;
+   font-weight: 800;
+   line-height: 1.2;
+}
+.down li{
+      font-weight: 100;
+      color: #000000;
+      font-family: var(--e-global-typography-secondary-font-family);   
+}
+.down .btn a{
+   text-decoration: none;
+   color: #fff;
+}
+.down .btn{
+   margin-top:15px ;
+   border-radius: 6px;
+   background-color: #007bff;
+   height: 42px;
+   padding: 5px;
+   text-align: center;
+   border: 0;
+}
+.down .btn:hover{
+   background-color: #003cff;
+}
 
+.content .left-item img {
+   width: 80%;
+}
 
+/*----------------------------------------------------------*/
 
 
 li {
