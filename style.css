@@ -338,9 +338,7 @@ li {
 }
 
 body {
-    background-image: url("images/body-background/Group/ 66.webp");
     background-size: cover;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 header .sticky {
@@ -360,6 +358,8 @@ header .navbar {
     padding: 20px 100px;
     z-index: 5;
     backdrop-filter: blur(3px);
+    font-family: var(--e-global-typography-accent-font-family);
+    font-weight: bold;
 }
 
 header .container .navbar .logo {
@@ -382,6 +382,10 @@ body>header>div>div>nav>ul {
 header .container .navbar nav ul li {
     position: relative;
     list-style: none;
+}
+
+body > header > div > div > nav > ul > li > a:hover{
+    color: var(--blue);
 }
 
 body>header>div>div>nav>ul>li>a {
