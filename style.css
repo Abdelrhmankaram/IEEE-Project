@@ -779,3 +779,8 @@ footer {
     z-index: 50;
     color: #000;
 }
+
+.instructor-info .social i{
+    width: 10px;
+    height: 10px;
+}
