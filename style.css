@@ -839,20 +839,24 @@ body > div > div.row > div{
     padding-left: 30px;
     border-radius: 40px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    background-color: var(--blue);
 }
 
 body > div > div.row > div > div.icon{
+    color: var(--white);
     font-size: 60px;
     margin-bottom: 50px;
 }
 body > div > div.row > div > div.body > div.header{
     font-size: 24px;
     font-weight: 700;
+    color: var(--white);
     margin-bottom: 15px;
 }
 
 body > div > div.row > div > div.body > div.content{
     width: 70%;
+    color: var(--white);
 }
 
 
@@ -866,5 +870,6 @@ body > div > div.row > div:hover{
     background-color: var(--white);
     padding: 90px;
     scale: 1.12;
+    background-color: var(--blue);
     z-index: 10;
 }
