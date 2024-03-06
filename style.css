@@ -810,6 +810,10 @@ footer {
 }
 
 /* section what we do */
+/* .what-we-do{
+    position: relative;
+} */
+
 body > div > div.section-title{
     display: flex;
     flex-direction: column;
@@ -830,6 +834,11 @@ body > div > div.row{
 
 body > div > div.row > div{
     margin: 10% 1%;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    border-radius: 40px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 body > div > div.row > div > div.icon{
@@ -846,9 +855,6 @@ body > div > div.row > div > div.body > div.content{
     width: 70%;
 }
 
-body > div > div.row > div > div.body > div.content:hover{
-    width: 100%;
-}
 
 body > div > div.row > div > div.body > div.content > p{
     opacity: 1;
@@ -859,8 +865,6 @@ body > div > div.row > div > div.body > div.content > p{
 body > div > div.row > div:hover{
     background-color: var(--white);
     padding: 90px;
-    border-radius: 40px;
-    scale: 1.2;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+    scale: 1.12;
     z-index: 10;
 }
