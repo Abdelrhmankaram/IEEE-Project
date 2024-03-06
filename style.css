@@ -412,7 +412,7 @@ body {
 header .sticky {
     height: 12%;
     padding: 5px 100px;
-    background-color: var(--blue);
+    background-color: rgba(0, 0, 255, 0.25);
 }
 
 header .navbar {
@@ -509,6 +509,9 @@ body>header>div>div>nav>ul>li:nth-child(4):hover>ul {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    filter: grayscale(50%);
+    /* opacity: 0.5; */
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.5) inset;
     z-index: -1;
 }
 
@@ -543,6 +546,7 @@ body>div.banner>div.left {
     margin: 20px;
 
 }
+/*----------------------------------------------------------*/
 
 .board {
     display: flex;
@@ -808,6 +812,7 @@ footer {
 .instructor-info > .social > *:hover{
     color: var(--blue);
 }
+/*----------------------------------------------------------*/
 
 /* section what we do */
 /* .what-we-do{
@@ -820,7 +825,6 @@ body > div > div.section-title{
     justify-content: center;
     width: 100%;
     text-align: center;
-    margin-bottom: 60px;
 }
 body > div > div.section-title > h2{
     color: #3b1d82;
@@ -873,3 +877,4 @@ body > div > div.row > div:hover{
     background-color: var(--blue);
     z-index: 10;
 }
+/*----------------------------------------------------------*/
