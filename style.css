@@ -800,3 +800,68 @@ footer {
 .instructor-info > .social > *:hover{
     color: var(--blue);
 }
+
+/* section what we do */
+/* .what-we-do{
+    position: relative;
+} */
+
+body > div > div.section-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+body > div > div.section-title > h2{
+    color: #3b1d82;
+    font-size: 36px;
+    font-weight: 800;
+}
+body > div > div.row{
+    display: flex;
+    margin: 0 70px;
+}
+
+body > div > div.row > div{
+    margin: 10% 1%;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    border-radius: 40px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    background-color: var(--blue);
+}
+
+body > div > div.row > div > div.icon{
+    color: var(--white);
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+body > div > div.row > div > div.body > div.header{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 15px;
+}
+
+body > div > div.row > div > div.body > div.content{
+    width: 70%;
+    color: var(--white);
+}
+
+
+body > div > div.row > div > div.body > div.content > p{
+    opacity: 1;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+body > div > div.row > div:hover{
+    background-color: var(--white);
+    padding: 90px;
+    scale: 1.12;
+    background-color: var(--blue);
+    z-index: 10;
+}
