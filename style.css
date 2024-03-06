@@ -808,3 +808,59 @@ footer {
 .instructor-info > .social > *:hover{
     color: var(--blue);
 }
+
+/* section what we do */
+body > div > div.section-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+body > div > div.section-title > h2{
+    color: #3b1d82;
+    font-size: 36px;
+    font-weight: 800;
+}
+body > div > div.row{
+    display: flex;
+    margin: 0 70px;
+}
+
+body > div > div.row > div{
+    margin: 10% 1%;
+}
+
+body > div > div.row > div > div.icon{
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+body > div > div.row > div > div.body > div.header{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+body > div > div.row > div > div.body > div.content{
+    width: 70%;
+}
+
+body > div > div.row > div > div.body > div.content:hover{
+    width: 100%;
+}
+
+body > div > div.row > div > div.body > div.content > p{
+    opacity: 1;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+body > div > div.row > div:hover{
+    background-color: var(--white);
+    padding: 90px;
+    border-radius: 40px;
+    scale: 1.2;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
