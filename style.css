@@ -114,7 +114,6 @@ a {
     line-height: 1.2;
 }
 
-
 .awaited-event>.container-awaited>.event-outcomes>.cards>.para>p {
     color: #5a5a5a;
     font-family: sans-serif;
@@ -130,7 +129,6 @@ a {
     width: 4px;
     height: 100%;
 }
-
 
 .awaited-event>.container-awaited>.event-outcomes>.our-links>.button-56,
 body>header>.container>.navbar>.button-56,
@@ -337,7 +335,6 @@ body>div.our-latest-event>div>div>div.right-item>div.down>button>a {
     color: #6c757d;
     font-family: var(--e-global-typography-secondary-font-family);
     margin-right: 20%;
-    /* text-align: center; */
     opacity: 1;
 }
 
@@ -374,8 +371,12 @@ h2 {
 }
 .content-act .right-item-2 {
     margin-left: 12%;
-    /* margin-right: 15%; */
     text-align: left;
+}
+
+.activities > .container-activities > .content-act > .right-item > h2,
+body > div.activities > div > div:nth-child(4) > div.right-item-2 > h2{
+    font-size: 2.5rem;
 }
 
 .content-act .left-item-2 .immg {
