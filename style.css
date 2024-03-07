@@ -306,7 +306,68 @@ body>div.our-latest-event>div>div>div.right-item>div.down>button>a {
     opacity: 1;
     transform: translateY(0);
 }
+/*---------------------Activities-----------------*/
+/*Start*/
+.activities{
+    padding: 50px;
+}
+.container-activities{
+    text-align: center;
+}
+.activities h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--blue);
+}
 
+.activities .p1 {
+    font-weight: 100;
+    padding: 10px;
+    color: #6c757d;
+    font-family: var(--e-global-typography-secondary-font-family);
+}
+
+.activities .p2 {
+    font-weight: 100;
+    color: #6c757d;
+    font-family: var(--e-global-typography-secondary-font-family);
+    margin-right: 45%;
+    /* text-align: center; */
+    opacity: 1;
+}
+
+.content-act {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-act .right-item {
+    margin-left: 18%;
+    /* margin-right: 15%; */
+    text-align: left;
+}
+
+h2 {
+    margin: 15px 0px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+}
+.left-item{
+    width: 170%;
+}
+.content-act .left-item img {
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 30%;
+
+}
+
+
+/*End of activities----->>>>>>>*/
 .our-latest-event{
     padding: 50px;
 }
@@ -314,7 +375,7 @@ body>div.our-latest-event>div>div>div.right-item>div.down>button>a {
 .container-latest h1 {
     font-size: 2.5rem;
     font-weight: 800;
-    padding-left: 40%;
+    padding-left: 39%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: var(--blue);
 }
@@ -322,7 +383,7 @@ body>div.our-latest-event>div>div>div.right-item>div.down>button>a {
 .container-latest .p1 {
     font-weight: 100;
     padding: 10px;
-    padding-left: 43%;
+    padding-left: 41%;
     color: #6c757d;
     font-family: var(--e-global-typography-secondary-font-family);
 }
