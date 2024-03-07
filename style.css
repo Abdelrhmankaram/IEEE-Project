@@ -430,9 +430,6 @@ h2 {
   font-weight: 800;
   line-height: 1.2;
 }
-.left-item {
-  width: 170%;
-}
 .content-act .left-item img {
   width: 100%;
   border-radius: 40px;
@@ -472,7 +469,6 @@ body > div.activities > div > div:nth-child(4) > div.right-item-2 > h2{
 .activities > .container-activities > .button-56 {
   margin-left: 46%;
 }
-/*End of activities----->>>>>>>*/
 .our-latest-event {
   padding: 50px;
 }
@@ -480,16 +476,16 @@ body > div.activities > div > div:nth-child(4) > div.right-item-2 > h2{
 .container-latest h1 {
   font-size: 2.5rem;
   font-weight: 800;
-  padding-left: 39%;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: var(--blue);
+  text-align: center;
 }
 
 .container-latest .p1 {
   font-weight: 100;
   padding: 10px;
-  padding-left: 41%;
+  text-align: center;
   color: #6c757d;
   font-family: var(--e-global-typography-secondary-font-family);
 }
@@ -502,13 +498,14 @@ body > div.activities > div > div:nth-child(4) > div.right-item-2 > h2{
 
 .content {
   display: flex;
+  text-align: center;
   justify-content: center;
-  align-items: center;
 }
 
-.content .right-item {
-  margin-left: 10%;
-  margin-right: 15%;
+.content .right-item, .content .right-item .down{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .our-latest-event .content .right-item .up h2 {
@@ -570,6 +567,7 @@ h2 {
 
 .content .left-item img {
   width: 80%;
+  height: auto;
 }
 
 li {
@@ -1184,12 +1182,14 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 20px;
 }
 
 .quotes {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 10px 0;
 }
 
 .quote-container {
@@ -1228,6 +1228,10 @@ footer {
 
 .experience .container {
   width: 100%;
+}
+
+.experience .quotes .quote-container footer{
+    background-color: white;
 }
 
 footer {
@@ -1278,14 +1282,11 @@ body > footer > div > div.row > div.mail > div.name{
     font-size: 1.5em;
 }
 
-
 body > footer > div > div.row > div.mail > div.link > a{
     color: var(--white);
     margin-bottom: 5px;
     font-size: 1.1em;
 }
-
-
 
 body > footer > div > div.row > div.location{
     margin: 10px 30px;        
@@ -1304,15 +1305,11 @@ body > footer > div > div.row > div.location > div.name{
     font-size: 1.5em;
 }
 
-
 body > footer > div > div.row > div.location > div.link > a{
     color: var(--white);
     margin-bottom: 5px;
     font-size: 1.1em;
 }
-
-
-
 
 body > footer > div > div.social-icon {
   display: flex;
@@ -1326,7 +1323,7 @@ body > footer > div > div.social-icon > div > a {
   border-radius: 50%;
   border-style: solid;
   border-color: var(--white);
-  width: 70px;
+  width: 57px;
   justify-content: center;
   display: flex;
 }
@@ -1366,7 +1363,6 @@ body > footer > div > div.social-icon > div > a:hover {
   opacity: 1;
 }
 .copyright {
-  background-color: var(--black);
   padding: 20px;
   text-align: center;
 }
