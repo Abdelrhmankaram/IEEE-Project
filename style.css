@@ -514,7 +514,7 @@ body>header>div>div>nav>ul>li:nth-child(4):hover>ul {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    filter: grayscale(50%);
+    filter: grayscale(60%);
     box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.5) inset;
     z-index: -1;
 }
@@ -548,7 +548,7 @@ body>div.banner>div.left {
     text-align: center;
     z-index: 1;
     margin: 20px;
-
+    font-family: var(--e-global-typography-accent-font-family);
 }
 
 .board {
