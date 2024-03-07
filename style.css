@@ -705,6 +705,7 @@ body>div.banner>div.left {
     color: var(--blue);
 }
 
+
 .title span{
     font-weight: 100;
     padding: 10px;
@@ -881,6 +882,14 @@ footer {
     height: 30%;
 }
 
+.what-we-do-container .container{
+    width: 100%;
+}
+
+.what-we-do-container > .container > .title > .p{
+    color: white;
+}
+
 .what-we-do-container{
     width: 90%;
     height: 50%;
@@ -957,6 +966,10 @@ footer {
 .container-our-committes{
     text-align: center;
     width: 80%;
+}
+
+.container-our-committes .container{
+    width: 100%;
 }
 
 .our-committes .committes h2 {
@@ -1103,4 +1116,8 @@ footer {
     margin-top: 10px;
     color: var(--blue);
     font-family: var(--e-global-typography-accent-font-family);
+}
+
+.experience .container{
+    width: 100%;
 }
