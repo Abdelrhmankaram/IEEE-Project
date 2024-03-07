@@ -344,6 +344,31 @@ body>div.our-latest-event>div>div>div.right-item>div.down>button>a {
     margin-right: 15%;
 }
 
+
+.our-latest-event .content .right-item .up h2{
+    font-size: 2rem;
+}
+
+.our-latest-event .content .right-item .up p{
+    text-align: center;
+}
+
+.our-latest-event .content .right-item .up *{
+    margin: 20px;
+}
+
+.our-latest-event .content .right-item .down h2{
+    font-size: 2rem;
+}
+
+.our-latest-event .content .right-item .down ul{
+    display: flex;
+}
+
+.our-latest-event .content .right-item .down *{
+    margin: 20px;
+}
+
 h2 {
     margin: 15px 0px;
     font-size: 22px;
