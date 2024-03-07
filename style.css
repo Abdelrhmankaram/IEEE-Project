@@ -449,6 +449,11 @@ h2 {
   text-align: left;
 }
 
+.activities > .container-activities > .content-act > .right-item > h2,
+body > div.activities > div > div:nth-child(4) > div.right-item-2 > h2{
+    font-size: 2.5rem;
+}
+
 .content-act .left-item-2 .immg {
   width: 70%;
   border-radius: 40px;
