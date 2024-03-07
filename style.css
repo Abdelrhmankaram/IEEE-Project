@@ -1035,7 +1035,7 @@ footer {
     padding: 5px;
 }
 
-.our-committes .cards .card-committe .content a::after{
+.our-committes .container-our-committes .committes-items .cards .card-committe .content a::after{
     content: "";
     position: absolute;
     width: 0;
@@ -1047,11 +1047,11 @@ footer {
     transition: all 0.5s;
 }
 
-.our-committes .cards .card-committe .content a:hover::after{
+.our-committes .container-our-committes .committes-items .cards .card-committe .content a::after{
     width: 95%;
 } 
 
 
-.our-committes .cards .card-committe .content-committes a:hover {
+.our-committes .container-our-committes .committes-items .cards .card-committe .content a:hover {
     color: #1c61e0;
 }
