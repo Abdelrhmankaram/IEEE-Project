@@ -789,7 +789,20 @@ footer {
     color: var(--blue);
 }
 
-body>div>div.section-title {
+.what-we-do{
+    display: flex;
+    justify-content: center;
+    height: 30%;
+}
+
+.what-we-do-container{
+    width: 90%;
+    height: 50%;
+    background-color: var(--blue);
+    border-radius: 25px;
+}
+
+.what-we-do-container> .section-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -797,57 +810,51 @@ body>div>div.section-title {
     text-align: center;
 }
 
-body>div>div.section-title>h2 {
-    color: #3b1d82;
+.what-we-do-container>div.section-title>h2 {
+    color: white;
     font-size: 36px;
-    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-body>div>div.row {
+.what-we-do-container> div.row {
     display: flex;
     margin: 0 70px;
 }
 
-body>div>div.row>div {
-    margin: 10% 1%;
+.what-we-do-container> div.row>.item {
+    margin: 5% 1%;
     padding-top: 80px;
     padding-bottom: 40px;
-    padding-left: 30px;
     border-radius: 40px;
+    background-color: white;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    background-color: var(--blue);
+    text-align: center;
 }
 
-body>div>div.row>div>div.icon {
-    color: var(--white);
+.what-we-do-container> div.row>div>div.icon {
+    color: var(--blue);
     font-size: 60px;
     margin-bottom: 50px;
 }
 
-body>div>div.row>div>div.body>div.header {
-    font-size: 24px;
+.what-we-do-container> div.row>div>div.body>div.header {
+    font-size: 2rem;
+    font-family: var(--e-global-typography-accent-font-family);
     font-weight: 700;
-    color: var(--white);
+    color: var(--blue);
     margin-bottom: 15px;
 }
 
-body>div>div.row>div>div.body>div.content {
-    width: 70%;
-    color: var(--white);
-}
-
-
-body>div>div.row>div>div.body>div.content>p {
+.what-we-do-container> div.row>div>div.body>div.content>p {
     opacity: 1;
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 1rem;
+    width: 70%;
+    color: #444;
+    font-family: var(--e-global-typography-accent-font-family);
 }
 
-body>div>div.row>div:hover {
-    background-color: var(--white);
-    padding: 90px;
+.what-we-do-container> div.row>div:hover {
     scale: 1.12;
-    background-color: var(--blue);
     z-index: 10;
 }
 
@@ -890,7 +897,6 @@ body>div>div.row>div:hover {
     margin: 10px;
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.11);
     transition: all 0.5s;
-
 }
 
 .our-committes .card-committe:hover {
@@ -902,7 +908,7 @@ body>div>div.row>div:hover {
 }
 
 .our-committes .cards .card-committe .image {
-    background-color: #1c61e0;
+    background-color: var(--blue);
 }
 
 .our-committes .cards .card-committe .image img {
