@@ -1,105 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/76cd67f664.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/76cd67f664.js"
+      crossorigin="anonymous"
+    ></script>
     <link
-        href="https://fonts.googleapis.com/css?family=Roboto%3Aregular%2C400%2C700%2C900%7CRaleway%3A800%2C400%2C700%2C900&amp;display=swap"
-        rel="stylesheet">
-    <link rel="shortcut icon" href="images/IEEE_icon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+      href="https://fonts.googleapis.com/css?family=Roboto%3Aregular%2C400%2C700%2C900%7CRaleway%3A800%2C400%2C700%2C900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="images/IEEE_icon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <title>IEEE</title>
-</head>
+  </head>
 
-<body style="background-image: url(images/body-background/Group\ 66.webp);">
-
-    <div id="pre-loader" style="z-index: 1000000;"></div>
+  <body style="background-image: url(images/body-background/Group\ 66.webp)">
+    <div id="pre-loader" style="z-index: 1000000"></div>
 
     <script>
-        var loader = document.getElementById("pre-loader");
+      var loader = document.getElementById("pre-loader");
 
-        window.addEventListener("load", function () {
-            setTimeout(function () {
-                loader.style.opacity = "0";
-                setTimeout(function () {
-                    loader.style.display = "none";
-                }, 500);
-            }, 1500);
-        });
+      window.addEventListener("load", function () {
+        setTimeout(function () {
+          loader.style.opacity = "0";
+          setTimeout(function () {
+            loader.style.display = "none";
+          }, 500);
+        }, 1500);
+      });
 
-        window.addEventListener("scroll", function () {
-            var header = document.querySelector(".navbar");
-            header.classList.toggle("sticky", window.scrollY > 0);
-        });
+      window.addEventListener("scroll", function () {
+        var header = document.querySelector(".navbar");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
     </script>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
 
-    <header style="transition: all ease-in-out 1s;">
-        <div class="container">
-            <div class="navbar">
-                <a class="logo">
-                    <img src="images/logo/logo.png" />
-                </a>
-                <nav>
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Events</a></li>
-                        <li>
-                            <a href="" class="more">More <i class="fa-solid fa-caret-down"></i></a>
-                            <ul class="submenu">
-                                <li><a href="">Our Activities</a></li>
-                                <li><a href="">IEEE TV</a></li>
-                                <li><a href="">FAQ</a></li>
-                                <li><a href="">Blogs</a></li>
-                            </ul>
-                        </li>
-                        <li><a href=""></a></li>
-                    </ul>
-                </nav>
-                <button class="button-56" role="button"><a href="https://ieee-bub.org/spirit_event_reg.php"
-                        target="_blank" rel="noopener noreferrer">Contact Us</a></button>
-            </div>
+    <header style="transition: all ease-in-out 1s">
+      <div class="container">
+        <div class="navbar">
+          <a class="logo">
+            <img src="images/logo/logo.png" />
+          </a>
+          <nav>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Events</a></li>
+              <li>
+                <a href="" class="more"
+                  >More <i class="fa-solid fa-caret-down"></i
+                ></a>
+                <ul class="submenu">
+                  <li><a href="">Our Activities</a></li>
+                  <li><a href="">IEEE TV</a></li>
+                  <li><a href="">FAQ</a></li>
+                  <li><a href="">Blogs</a></li>
+                </ul>
+              </li>
+              <li><a href=""></a></li>
+            </ul>
+          </nav>
+          <button class="button-56" role="button">
+            <a
+              href="https://ieee-bub.org/spirit_event_reg.php"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Contact Us</a
+            >
+          </button>
         </div>
+      </div>
     </header>
 
     <div class="banner">
-        <div class="left">
-            <h2>Hi, Friend!</h2>
-            <h4>Come see how our journey is going, and maybe be a part of it?</h4>
-        </div>
-        <div class="right"><img src="images/logo/logo.png" alt=""></div>
+      <div class="left">
+        <h2>Hi, Friend!</h2>
+        <h4>Come see how our journey is going, and maybe be a part of it?</h4>
+      </div>
+      <div class="right"><img src="images/logo/logo.png" alt="" /></div>
     </div>
 
     <div class="awaited-event">
-        <div class="new-event">
-            <h2>Our Awaited Event</h2>
-
+      <div class="new-event">
+        <h2>Our Awaited Event</h2>
+      </div>
+      <img src="images/other-components/line.webp" alt="" />
+      <div class="container-awaited">
+        <!-- the left div contains the cover and content of event -->
+        <div class="spirit-cover-card">
+          <div class="cover-box">
+            <img src="./images/awaited-event/cover_spirit.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h2>Spirit - NEW EVENT</h2>
+            <p>
+              Allowing the energy of creativity within you to shape the curves
+              of your life <br />
+              and embody your failures and successes in your painting.Your
+              painting is yours alone,<br />
+              where you see yourself between its lines and your spirit in the
+              mix of its colors.<br />Even if you're scattered and confused,
+              your passion and art will help you to reach.
+            </p>
+          </div>
         </div>
-        <img src="images/other-components/line.webp" alt="">
-        <div class="container-awaited">
-            <!-- the left div contains the cover and content of event -->
-            <div class="spirit-cover-card">
-                <div class="cover-box">
-                    <img src="./images/awaited-event/cover_spirit.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h2>Spirit - NEW EVENT</h2>
-                    <p>Allowing the energy of creativity within you to shape the curves of your life
-                        <br> and embody your failures and successes in your painting.Your painting is yours alone,<br>
-                        where you see yourself between its lines
-                        and your spirit in the mix of its colors.<br>Even if you're scattered and confused, your passion
-                        and art will help you to reach.
-                    </p>
-                </div>
-            </div>
 
-            <!-- the right div contains some divs for >> Why you should Join Event (.event-outcomes)
+        <!-- the right div contains some divs for >> Why you should Join Event (.event-outcomes)
                             dvided to :
                                 4 divs >> cards
                                     every card contains :
@@ -107,619 +122,738 @@
                                         - paragraph with head > h2
                                 2 buttons in div(.our links) (.button56 >> تمويه)
                 -->
-            <div class="event-outcomes">
-                <!-- 1.great speakers -->
-                <div class="cards">
-                    <div class="icon-card">
-                        <img src="./images/awaited-event/microphone (1).png" alt="">
-                    </div>
-                    <div class="para">
-                        <h2>Great Speakers</h2>
-                        <p>How you transform your business as technology,<br> consumer, habits industry dynamic</p>
-                    </div>
-                </div>
-                <!-- 2.networking -->
-                <div class="cards">
-                    <div class="icon-card">
-                        <img src="./images/awaited-event/teamwork.png" alt="">
-                    </div>
-                    <div class="para">
-                        <h2>Networking</h2>
-                        <p>How you transform your business as technology,<br> consumer, habits industry dynamic</p>
-                    </div>
-                </div>
-                <!-- 3.have fun -->
-                <div class="cards">
-                    <div class="icon-card">
-                        <img src="./images/awaited-event/party-hat.png" alt="">
-                    </div>
-                    <div class="para">
-                        <h2>Have Fun</h2>
-                        <p>How you transform your business as technology,<br> consumer, habits industry dynamic</p>
-                    </div>
-                </div>
-                <!-- 4.New People -->
-                <div class="cards">
-                    <div class="icon-card">
-                        <img src="./images/awaited-event/add.png" alt="">
-                    </div>
-                    <div class="para">
-                        <h2>New People</h2>
-                        <p>How you transform your business as technology,<br> consumer, habits industry dynamic</p>
-                    </div>
-                </div>
-                <div class="our-links">
-                    <!-- مش عارف ايه المشكلة فيهم بس هم ظاهرين تمام!!!!! -->
-                    <button class="button-56" role="button"><a href="https://ieee-bub.org/spirit_event_reg.php"
-                            target="_blank" rel="noopener noreferrer">Register Here!</a></button>
-                    <button class="button-56" role="button"><a
-                            href="https://www.facebook.com/events/7145185062233841/?ref_source=NEWS_FEED"
-                            target="_blank" rel="noopener noreferrer">Learn More</a></button>
-                    <!-- ========================== -->
-                </div>
+        <div class="event-outcomes">
+          <!-- 1.great speakers -->
+          <div class="cards">
+            <div class="icon-card">
+              <img src="./images/awaited-event/microphone (1).png" alt="" />
             </div>
+            <div class="para">
+              <h2>Great Speakers</h2>
+              <p>
+                How you transform your business as technology,<br />
+                consumer, habits industry dynamic
+              </p>
+            </div>
+          </div>
+          <!-- 2.networking -->
+          <div class="cards">
+            <div class="icon-card">
+              <img src="./images/awaited-event/teamwork.png" alt="" />
+            </div>
+            <div class="para">
+              <h2>Networking</h2>
+              <p>
+                How you transform your business as technology,<br />
+                consumer, habits industry dynamic
+              </p>
+            </div>
+          </div>
+          <!-- 3.have fun -->
+          <div class="cards">
+            <div class="icon-card">
+              <img src="./images/awaited-event/party-hat.png" alt="" />
+            </div>
+            <div class="para">
+              <h2>Have Fun</h2>
+              <p>
+                How you transform your business as technology,<br />
+                consumer, habits industry dynamic
+              </p>
+            </div>
+          </div>
+          <!-- 4.New People -->
+          <div class="cards">
+            <div class="icon-card">
+              <img src="./images/awaited-event/add.png" alt="" />
+            </div>
+            <div class="para">
+              <h2>New People</h2>
+              <p>
+                How you transform your business as technology,<br />
+                consumer, habits industry dynamic
+              </p>
+            </div>
+          </div>
+          <div class="our-links">
+            <!-- مش عارف ايه المشكلة فيهم بس هم ظاهرين تمام!!!!! -->
+            <button class="button-56" role="button">
+              <a
+                href="https://ieee-bub.org/spirit_event_reg.php"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Register Here!</a
+              >
+            </button>
+            <button class="button-56" role="button">
+              <a
+                href="https://www.facebook.com/events/7145185062233841/?ref_source=NEWS_FEED"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Learn More</a
+              >
+            </button>
+            <!-- ========================== -->
+          </div>
         </div>
-
+      </div>
     </div>
 
     <div class="our-latest-event">
-        <div class="container-latest">
+      <div class="container-latest">
+        <h1>Our Latest Event.</h1>
+        <p class="p1">The Last Event Created by IEEE-BUB SB</p>
 
-            <h1>Our Latest Event.</h1>
-            <p class="p1">The Last Event Created by IEEE-BUB SB</p>
-
-            <div class="content">
-                <div class="right-item">
-                    <div class="up">
-                        <h2>Let's Embark II</h2>
-                        <p class="p2" style="opacity: 1;">Ladies and gentlemen, fasten your seatbelts because you're
-                            about to embark on a remarkable journey. </p>
-                    </div>
-                    <div class="down">
-                        <h2>Event Details</h2>
-                        <ul>
-                            <li><strong>Date:</strong> SATURDAY, 4 MARCH 2023</li>
-                            <li><strong>Place:</strong> ICB - International College Of Benha</li>
-                        </ul>
-                        <button class="button-56" role="button"><a href="https://ieee-bub.org/spirit_event_reg.php"
-                                target="_blank" rel="noopener noreferrer">See all Of Our Events</a></button>
-                    </div>
-                </div>
-                
-                <div class="left-item">
-                    <img src="images/latest-event/cover_lets_embark_2.jpg" alt="">
-                </div>
+        <div class="content">
+          <div class="right-item">
+            <div class="up">
+              <h2>Let's Embark II</h2>
+              <p class="p2" style="opacity: 1">
+                Ladies and gentlemen, fasten your seatbelts because you're about
+                to embark on a remarkable journey.
+              </p>
             </div>
+            <div class="down">
+              <h2>Event Details</h2>
+              <ul>
+                <li><strong>Date:</strong> SATURDAY, 4 MARCH 2023</li>
+                <li>
+                  <strong>Place:</strong> ICB - International College Of Benha
+                </li>
+              </ul>
+              <button class="button-56" role="button">
+                <a
+                  href="https://ieee-bub.org/spirit_event_reg.php"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >See all Of Our Events</a
+                >
+              </button>
+            </div>
+          </div>
+
+          <div class="left-item">
+            <img src="images/latest-event/cover_lets_embark_2.jpg" alt="" />
+          </div>
         </div>
+      </div>
     </div>
 
     <div class="what-we-do">
-        <div class="what-we-do-container">
-            <div class="section-title">
-                <h2>What We Do</h2>
-            </div>
-
-            <div class="row">
-                <div class="item">
-                    <div class="icon">
-                        <i class="fa-solid fa-calendar-days fa-bounce fa-xl"></i>
-                    </div>
-                    <div class="body">
-                        <div class="header">Events</div>
-                        <div class="content">
-                            <p>
-                                Throughout the season, we present two events (winter event and
-                                mega event).
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="icon">
-                        <i class="fa-solid fa-person-chalkboard fa-bounce fa-xl"></i>
-                    </div>
-                    <div class="body">
-                        <div class="header">Workshops</div>
-                        <div class="content">
-                            <p>
-                                Workshops whether in sessions or in events, we try to benefit the
-                                students.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="icon">
-                        <i class="fa-solid fa-lightbulb fa-bounce fa-xl"></i>
-                    </div>
-                    <div class="body">
-                        <div class="header">Sessions</div>
-                        <div class="content">
-                            <p>
-                                As members can learn new skills can benefit them in their
-                                practical life later.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="what-we-do-container">
+        <div class="section-title">
+          <h2>What We Do</h2>
         </div>
+
+        <div class="row">
+          <div class="item">
+            <div class="icon">
+              <!-- <i class="fa-solid fa-calendar-days fa-bounce fa-xl"></i> -->
+              <i class="fa-solid fa-calendar-days fa-xl"></i>
+            </div>
+            <div class="body">
+              <div class="header">Events</div>
+              <div class="content">
+                <p>
+                  Throughout the season, we present two events (winter event and
+                  mega event).
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="icon">
+              <!-- <i class="fa-solid fa-person-chalkboard fa-bounce fa-xl"></i> -->
+              <i class="fa-solid fa-person-chalkboard fa-xl"></i>
+            </div>
+            <div class="body">
+              <div class="header">Workshops</div>
+              <div class="content">
+                <p>
+                  Workshops whether in sessions or in events, we try to benefit
+                  the students.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="icon">
+              <!-- <i class="fa-solid fa-lightbulb fa-bounce fa-xl"></i> -->
+              <i class="fa-solid fa-lightbulb fa-xl"></i>
+            </div>
+            <div class="body">
+              <div class="header">Sessions</div>
+              <div class="content">
+                <p>
+                  As members can learn new skills can benefit them in their
+                  practical life later.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="board">
-        <div class="container">
-            <div class="title">
-                <p>
-                    Meet our Board.
-                </p>
-                <span>
-                    Swipe left to see all Board Members.
-                </span>
-            </div>
-            <img src="images/other-components/line.webp" alt="">
-            <div class="board-members wrapper ">
-                <ul class="carousel">
-                    <li>
-                        <div class="board-member-image">
-                            <img src="images/board/omar khaled.jpg" alt="">
-                        </div>
-                        <div class="board-member-name">Omar Khaled</div>
-                        <div class="board-member-branch">Chairman</div>
-                    </li>
-
-                    <li>
-                        <div class="board-member-image">
-                            <img src="images/board/mohannad.jpg" alt="">
-                        </div>
-                        <div class="board-member-name">Mohannad Seiam</div>
-                        <div class="board-member-branch">Secretary</div>
-                    </li>
-
-                    <li>
-                        <div class="board-member-image">
-                            <img src="images/board/ahmed mamdouh.jpg" alt="">
-                        </div>
-                        <div class="board-member-name">Ahmed Mamdouh</div>
-                        <div class="board-member-branch">Vice Technical</div>
-                    </li>
-
-                    <li>
-                        <div class="board-member-image">
-                            <img src="images/board/mohamed amr.jpg" alt="">
-                        </div>
-                        <div class="board-member-name">Mohamed Amro</div>
-                        <div class="board-member-branch">Vice Non-technical</div>
-                    </li>
-
-                    <li>
-                        <div class="board-member-image">
-                            <img src="images/board/moaz.jpg" alt="">
-                        </div>
-                        <div class="board-member-name">Moaz Mostafa</div>
-                        <div class="board-member-branch">Treasurer</div>
-                    </li>
-
-                    <li>
-                        <div class="board-member-image">
-                            <img src="images/board/sallam.jpg" alt="">
-                        </div>
-                        <div class="board-member-name">Mohamed Sallam</div>
-                        <div class="board-member-branch">Web Head</div>
-                    </li>
-
-                    <li>
-                        <div class="board-member-image">
-                            <img src="images/board/adnan.jpg" alt="">
-                        </div>
-                        <div class="board-member-name">Adnan Adel</div>
-                        <div class="board-member-branch">Embedded Head</div>
-                    </li>
-
-                    <li>
-                        <div class="board-member-image">
-                            <img src="images/board/sarg.jpg" alt="">
-                        </div>
-                        <div class="board-member-name">Ahmed Sarg</div>
-                        <div class="board-member-branch">Flutter Head</div>
-                    </li>
-
-                    <li>
-                        <div class="board-member-image">
-                            <img src="images/board/mohamed eid.jpg" alt="">
-                        </div>
-                        <div class="board-member-name">Mohamed Osama</div>
-                        <div class="board-member-branch">Arduino Head</div>
-                    </li>
-
-                    <li>
-                        <div class="board-member-image">
-                            <img src="images/board/renad.jpg" alt="">
-                        </div>
-                        <div class="board-member-name">Renad Ahmed</div>
-                        <div class="board-member-branch">PR Head</div>
-                    </li>
-
-                    <li>
-                        <div class="board-member-image">
-                            <img src="images/board/hadeer magdy.jpg" alt="">
-                        </div>
-                        <div class="board-member-name">Hadeer Magdy</div>
-                        <div class="board-member-branch">PR Vice</div>
-                    </li>
-
-                    <li>
-                        <div class="board-member-image">
-                            <img src="images/board/rawan.jpg" alt="">
-                        </div>
-                        <div class="board-member-name">Rawan Waleed</div>
-                        <div class="board-member-branch">Media Head</div>
-                    </li>
-
-                    <li>
-                        <div class="board-member-image">
-                            <img src="images/board/shahd.jpg" alt="">
-                        </div>
-                        <div class="board-member-name">Shahd Mohamed</div>
-                        <div class="board-member-branch">Graphic Vice</div>
-                    </li>
-
-                    <li>
-                        <div class="board-member-image">
-                            <img src="images/board/norhan.jpg" alt="">
-                        </div>
-                        <div class="board-member-name">Nourhan Salem</div>
-                        <div class="board-member-branch">Social Media Vice</div>
-                    </li>
-
-                    <li>
-                        <div class="board-member-image">
-                            <img src="images/board/abdelrahman.jpg" alt="">
-                        </div>
-                        <div class="board-member-name">Abdelrhman Ashraf</div>
-                        <div class="board-member-branch">Photo-Video Vice</div>
-                    </li>
-
-                    <li>
-                        <div class="board-member-image">
-                            <img src="images/board/maram.jpg" alt="">
-                        </div>
-                        <div class="board-member-name">Maram Nasser</div>
-                        <div class="board-member-branch">Logistics Head</div>
-                    </li>
-
-                    <li>
-                        <div class="board-member-image">
-                            <img src="images/board/mostafa elkholy.jpg" alt="">
-                        </div>
-                        <div class="board-member-name">Mostafa ELkholy</div>
-                        <div class="board-member-branch">Logistics Vice</div>
-                    </li>
-
-                    <li>
-                        <div class="board-member-image">
-                            <img src="images/board/jana ahmed.jpg" alt="">
-                        </div>
-                        <div class="board-member-name">Jana Ahmed</div>
-                        <div class="board-member-branch">FR Head</div>
-                    </li>
-
-                    <li>
-                        <div class="board-member-image">
-                            <img src="images/board/esraa dyaa.jpg" alt="">
-                        </div>
-                        <div class="board-member-name">Esraa Dyaa</div>
-                        <div class="board-member-branch">HR Head</div>
-                    </li>
-
-                    <li>
-                        <div class="board-member-image">
-                            <img src="images/board/mohamed ebrahim.jpg" alt="">
-                        </div>
-                        <div class="board-member-name">Mohamed Ibrahim</div>
-                        <div class="board-member-branch">HR Vice</div>
-                    </li>
-
-                </ul>
-            </div>
-
+      <div class="container">
+        <div class="title">
+          <p>Meet our Board.</p>
+          <span> Swipe left to see all Board Members. </span>
         </div>
+        <img src="images/other-components/line.webp" alt="" />
+        <div class="board-members wrapper">
+          <ul class="carousel">
+            <li>
+              <div class="board-member-image">
+                <img src="images/board/omar khaled.jpg" alt="" />
+              </div>
+              <div class="board-member-name">Omar Khaled</div>
+              <div class="board-member-branch">Chairman</div>
+            </li>
+
+            <li>
+              <div class="board-member-image">
+                <img src="images/board/mohannad.jpg" alt="" />
+              </div>
+              <div class="board-member-name">Mohannad Seiam</div>
+              <div class="board-member-branch">Secretary</div>
+            </li>
+
+            <li>
+              <div class="board-member-image">
+                <img src="images/board/ahmed mamdouh.jpg" alt="" />
+              </div>
+              <div class="board-member-name">Ahmed Mamdouh</div>
+              <div class="board-member-branch">Vice Technical</div>
+            </li>
+
+            <li>
+              <div class="board-member-image">
+                <img src="images/board/mohamed amr.jpg" alt="" />
+              </div>
+              <div class="board-member-name">Mohamed Amro</div>
+              <div class="board-member-branch">Vice Non-technical</div>
+            </li>
+
+            <li>
+              <div class="board-member-image">
+                <img src="images/board/moaz.jpg" alt="" />
+              </div>
+              <div class="board-member-name">Moaz Mostafa</div>
+              <div class="board-member-branch">Treasurer</div>
+            </li>
+
+            <li>
+              <div class="board-member-image">
+                <img src="images/board/sallam.jpg" alt="" />
+              </div>
+              <div class="board-member-name">Mohamed Sallam</div>
+              <div class="board-member-branch">Web Head</div>
+            </li>
+
+            <li>
+              <div class="board-member-image">
+                <img src="images/board/adnan.jpg" alt="" />
+              </div>
+              <div class="board-member-name">Adnan Adel</div>
+              <div class="board-member-branch">Embedded Head</div>
+            </li>
+
+            <li>
+              <div class="board-member-image">
+                <img src="images/board/sarg.jpg" alt="" />
+              </div>
+              <div class="board-member-name">Ahmed Sarg</div>
+              <div class="board-member-branch">Flutter Head</div>
+            </li>
+
+            <li>
+              <div class="board-member-image">
+                <img src="images/board/mohamed eid.jpg" alt="" />
+              </div>
+              <div class="board-member-name">Mohamed Osama</div>
+              <div class="board-member-branch">Arduino Head</div>
+            </li>
+
+            <li>
+              <div class="board-member-image">
+                <img src="images/board/renad.jpg" alt="" />
+              </div>
+              <div class="board-member-name">Renad Ahmed</div>
+              <div class="board-member-branch">PR Head</div>
+            </li>
+
+            <li>
+              <div class="board-member-image">
+                <img src="images/board/hadeer magdy.jpg" alt="" />
+              </div>
+              <div class="board-member-name">Hadeer Magdy</div>
+              <div class="board-member-branch">PR Vice</div>
+            </li>
+
+            <li>
+              <div class="board-member-image">
+                <img src="images/board/rawan.jpg" alt="" />
+              </div>
+              <div class="board-member-name">Rawan Waleed</div>
+              <div class="board-member-branch">Media Head</div>
+            </li>
+
+            <li>
+              <div class="board-member-image">
+                <img src="images/board/shahd.jpg" alt="" />
+              </div>
+              <div class="board-member-name">Shahd Mohamed</div>
+              <div class="board-member-branch">Graphic Vice</div>
+            </li>
+
+            <li>
+              <div class="board-member-image">
+                <img src="images/board/norhan.jpg" alt="" />
+              </div>
+              <div class="board-member-name">Nourhan Salem</div>
+              <div class="board-member-branch">Social Media Vice</div>
+            </li>
+
+            <li>
+              <div class="board-member-image">
+                <img src="images/board/abdelrahman.jpg" alt="" />
+              </div>
+              <div class="board-member-name">Abdelrhman Ashraf</div>
+              <div class="board-member-branch">Photo-Video Vice</div>
+            </li>
+
+            <li>
+              <div class="board-member-image">
+                <img src="images/board/maram.jpg" alt="" />
+              </div>
+              <div class="board-member-name">Maram Nasser</div>
+              <div class="board-member-branch">Logistics Head</div>
+            </li>
+
+            <li>
+              <div class="board-member-image">
+                <img src="images/board/mostafa elkholy.jpg" alt="" />
+              </div>
+              <div class="board-member-name">Mostafa ELkholy</div>
+              <div class="board-member-branch">Logistics Vice</div>
+            </li>
+
+            <li>
+              <div class="board-member-image">
+                <img src="images/board/jana ahmed.jpg" alt="" />
+              </div>
+              <div class="board-member-name">Jana Ahmed</div>
+              <div class="board-member-branch">FR Head</div>
+            </li>
+
+            <li>
+              <div class="board-member-image">
+                <img src="images/board/esraa dyaa.jpg" alt="" />
+              </div>
+              <div class="board-member-name">Esraa Dyaa</div>
+              <div class="board-member-branch">HR Head</div>
+            </li>
+
+            <li>
+              <div class="board-member-image">
+                <img src="images/board/mohamed ebrahim.jpg" alt="" />
+              </div>
+              <div class="board-member-name">Mohamed Ibrahim</div>
+              <div class="board-member-branch">HR Vice</div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <div class="heros">
-        <div class="container">
-            <div class="title">
-                <p>
-                    Heros of The Month.
-                </p>
-                <span>
-                    Some of Our Heroes of IEEE BUB for January 2024!
-                </span>
-            </div>
-            <img src="images/other-components/line.webp" alt="">
-            <div class="hero-members wrapper">
-                <ul class="carousel">
-                    <li>
-                        <div class="hero-image">
-                            <img src="images/heros/1.jpg" alt="">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="hero-image">
-                            <img src="images/heros/2.jpg" alt="">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="hero-image">
-                            <img src="images/heros/3.jpg" alt="">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="hero-image">
-                            <img src="images/heros/4.jpg" alt="">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="hero-image">
-                            <img src="images/heros/5.jpg" alt="">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="hero-image">
-                            <img src="images/heros/6.jpg" alt="">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="hero-image">
-                            <img src="images/heros/7.jpg" alt="">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="hero-image">
-                            <img src="images/heros/8.jpg" alt="">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="hero-image">
-                            <img src="images/heros/9.jpg" alt="">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="hero-image">
-                            <img src="images/heros/10.jpg" alt="">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="hero-image">
-                            <img src="images/heros/11.jpg" alt="">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="hero-image">
-                            <img src="images/heros/12.jpg" alt="">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="hero-image">
-                            <img src="images/heros/13.jpg" alt="">
-                        </div>
-                    </li>
-                </ul>
-            </div>
+      <div class="container">
+        <div class="title">
+          <p>Heros of The Month.</p>
+          <span> Some of Our Heroes of IEEE BUB for January 2024! </span>
         </div>
+        <img src="images/other-components/line.webp" alt="" />
+        <div class="hero-members wrapper">
+          <ul class="carousel">
+            <li>
+              <div class="hero-image">
+                <img src="images/heros/1.jpg" alt="" />
+              </div>
+            </li>
+            <li>
+              <div class="hero-image">
+                <img src="images/heros/2.jpg" alt="" />
+              </div>
+            </li>
+            <li>
+              <div class="hero-image">
+                <img src="images/heros/3.jpg" alt="" />
+              </div>
+            </li>
+            <li>
+              <div class="hero-image">
+                <img src="images/heros/4.jpg" alt="" />
+              </div>
+            </li>
+            <li>
+              <div class="hero-image">
+                <img src="images/heros/5.jpg" alt="" />
+              </div>
+            </li>
+            <li>
+              <div class="hero-image">
+                <img src="images/heros/6.jpg" alt="" />
+              </div>
+            </li>
+            <li>
+              <div class="hero-image">
+                <img src="images/heros/7.jpg" alt="" />
+              </div>
+            </li>
+            <li>
+              <div class="hero-image">
+                <img src="images/heros/8.jpg" alt="" />
+              </div>
+            </li>
+            <li>
+              <div class="hero-image">
+                <img src="images/heros/9.jpg" alt="" />
+              </div>
+            </li>
+            <li>
+              <div class="hero-image">
+                <img src="images/heros/10.jpg" alt="" />
+              </div>
+            </li>
+            <li>
+              <div class="hero-image">
+                <img src="images/heros/11.jpg" alt="" />
+              </div>
+            </li>
+            <li>
+              <div class="hero-image">
+                <img src="images/heros/12.jpg" alt="" />
+              </div>
+            </li>
+            <li>
+              <div class="hero-image">
+                <img src="images/heros/13.jpg" alt="" />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <div class="our-committes">
-        <div class="container-our-committes">
-            <div class="committes">
-                <h2>Our Committes</h2>
-                <p>Now we will present a brief overview of our committees</p>
-            </div>
-            <div class="committes-items">
-                <div class="cards">
-                    <div class="card-committe">
-                        <div class="image"><img src="./images/report_presentation.png" alt=""></div>
-                        <div class="content-committes">
-                            <h2>Scientific<br> Committe</h2>
-                            <p>Technology pursuers</p>
-                            <a href="https://ieee-bub.org/committee_desc.php?committee=Scientific" target="_blank"
-                                rel="noopener noreferrer">Learn more</a>
-                        </div>
-                    </div>
-
-                    <div class="card-committe" class="fr">
-                        <div class="image"><img src="./images/wallet.png" alt=""></div>
-                        <div class="content-committes">
-                            <h2>FR<br> Committe</h2>
-                            <p>Money Makers</p>
-                            <a href="#" target="_blank">Learn More</a>
-                        </div>
-                    </div>
-
-                    <div class="card-committe" class="pr">
-                        <div class="image"><img src="./images/like.png" alt=""></div>
-                        <div class="content-committes">
-                            <h2>Media<br> Committe</h2>
-                            <p>Social media wizards</p>
-                            <a href="https://ieee-bub.org/committee_desc.php?committee=Media" target="_blank">Learn
-                                More</a>
-                        </div>
-                    </div>
-
-                    <div class="card-committe" class="hr">
-                        <div class="image"><img src="./images/project_presentation_.png" alt=""></div>
-                        <div class="content-committes">
-                            <h2>HR<br> Committe</h2>
-                            <p>The bosses</p>
-                            <a href="https://ieee-bub.org/committee_desc.php?committee=HR" target="_blank">Learn
-                                More</a>
-                        </div>
-                    </div>
-
-                    <div class="card-committe" class="logistics">
-                        <div class="image"><img src="./images/analysis_.png" alt=""></div>
-                        <div class="content-committes">
-                            <h2>Logistics Committe</h2>
-                            <p>Organizing masters</p>
-                            <a href="https://ieee-bub.org/committee_desc.php?committee=Logistic" target="_blank">Learn
-                                More</a>
-                        </div>
-                    </div>
-
-                    <div class="card-committe" class="logistics">
-                        <div class="image"><img src="./images/team_presentation_.png" alt=""></div>
-                        <div class="content-committes">
-                            <h2>PR<br> Committe</h2>
-                            <p>The people's people</p>
-                            <a href="https://ieee-bub.org/committee_desc.php?committee=PR" target="_blank">Learn
-                                More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container-our-committes">
+        <div class="committes">
+          <h2>Our Committes</h2>
+          <p>Now we will present a brief overview of our committees</p>
         </div>
+        <div class="committes-items">
+          <div class="cards">
+            <div class="card-committe">
+              <div class="image">
+                <img src="./images/report_presentation.png" alt="" />
+              </div>
+              <div class="content-committes">
+                <h2>
+                  Scientific<br />
+                  Committe
+                </h2>
+                <p>Technology pursuers</p>
+                <a
+                  href="https://ieee-bub.org/committee_desc.php?committee=Scientific"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Learn more</a
+                >
+              </div>
+            </div>
+
+            <div class="card-committe" class="fr">
+              <div class="image"><img src="./images/wallet.png" alt="" /></div>
+              <div class="content-committes">
+                <h2>
+                  FR<br />
+                  Committe
+                </h2>
+                <p>Money Makers</p>
+                <a href="#" target="_blank">Learn More</a>
+              </div>
+            </div>
+
+            <div class="card-committe" class="pr">
+              <div class="image"><img src="./images/like.png" alt="" /></div>
+              <div class="content-committes">
+                <h2>
+                  Media<br />
+                  Committe
+                </h2>
+                <p>Social media wizards</p>
+                <a
+                  href="https://ieee-bub.org/committee_desc.php?committee=Media"
+                  target="_blank"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+
+            <div class="card-committe" class="hr">
+              <div class="image">
+                <img src="./images/project_presentation_.png" alt="" />
+              </div>
+              <div class="content-committes">
+                <h2>
+                  HR<br />
+                  Committe
+                </h2>
+                <p>The bosses</p>
+                <a
+                  href="https://ieee-bub.org/committee_desc.php?committee=HR"
+                  target="_blank"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+
+            <div class="card-committe" class="logistics">
+              <div class="image">
+                <img src="./images/analysis_.png" alt="" />
+              </div>
+              <div class="content-committes">
+                <h2>Logistics Committe</h2>
+                <p>Organizing masters</p>
+                <a
+                  href="https://ieee-bub.org/committee_desc.php?committee=Logistic"
+                  target="_blank"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+
+            <div class="card-committe" class="logistics">
+              <div class="image">
+                <img src="./images/team_presentation_.png" alt="" />
+              </div>
+              <div class="content-committes">
+                <h2>
+                  PR<br />
+                  Committe
+                </h2>
+                <p>The people's people</p>
+                <a
+                  href="https://ieee-bub.org/committee_desc.php?committee=PR"
+                  target="_blank"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="instructors-section">
-        <div class="title">
-            <p>
-                Our Instructors.
-            </p>
-            <span>
-                Our Instructors holding training for team members in diffrent tracks.
-            </span>
-        </div>
-        <img src="images/other-components/line.webp" alt="">
-        <div class="instructors">
-            <div class="instructor-card"> <!-- Ahmed Ayman -->
-                <img src="images/instructors/Ahmed Ayman.png" alt="">
-                <div class="instructor-info">
-                    <p class="name">Ahmed Ayman</p>
-                    <p class="branch">Web Instructor</p>
-                    <div class="social">
-                        <a class="fa-brands fa-facebook" href="https://www.facebook.com/ahmedayman.maks"></a>
+      <div class="title">
+        <p>Our Instructors.</p>
+        <span>
+          Our Instructors holding training for team members in diffrent tracks.
+        </span>
+      </div>
+      <img src="images/other-components/line.webp" alt="" />
+      <div class="instructors">
+        <div class="instructor-card">
+          <!-- Ahmed Ayman -->
+          <img src="images/instructors/Ahmed Ayman.png" alt="" />
+          <div class="instructor-info">
+            <p class="name">Ahmed Ayman</p>
+            <p class="branch">Web Instructor</p>
+            <div class="social">
+              <a
+                class="fa-brands fa-facebook"
+                href="https://www.facebook.com/ahmedayman.maks"
+              ></a>
 
-                        <a class="fa-brands fa-linkedin" href="http://www.linkedin.com/in/ahmed-ayman-maksoudaa"></a>
+              <a
+                class="fa-brands fa-linkedin"
+                href="http://www.linkedin.com/in/ahmed-ayman-maksoudaa"
+              ></a>
 
-                        <a class="fa-regular fa-envelope" href="ahmeday.maks@gmail.com"></a>
-                    </div>
-                </div>
+              <a
+                class="fa-regular fa-envelope"
+                href="ahmeday.maks@gmail.com"
+              ></a>
             </div>
-
-            <div class="instructor-card"> <!-- Mohamed Osama-->
-                <img src="images/instructors/mohamed eid.jpg" alt="">
-                <div class="instructor-info">
-                    <p class="name">Mohamed Osama</p>
-                    <p class="branch">Arduino & Robotics instructor</p>
-                    <div class="social">
-                        <a class="fa-brands fa-facebook" href="https://www.facebook.com/mohamedelnemr6"></a>
-
-                        <a class="fa-brands fa-linkedin"
-                            href="https://www.linkedin.com/in/mohamed-eid-1657b9254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"></a>
-
-                        <a class="fa-regular fa-envelope" href="hamaozil1666@gmail.com"></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="instructor-card"> <!-- Shamel-->
-                <img src="images/instructors/shamel.jpg" alt="">
-                <div class="instructor-info">
-                    <p class="name">Shamel Hashem</p>
-                    <p class="branch">C instructor</p>
-                    <div class="social">
-                        <a class="fa-brands fa-facebook"
-                            href="https://www.facebook.com/shamel.hashem.1?sfnsn=scwspwa&mibextid=RUbZ1f"></a>
-
-                        <a class="fa-brands fa-linkedin"
-                            href="https://www.linkedin.com/in/shamel-hashem-41a959226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"></a>
-
-                        <a class="fa-regular fa-envelope" href="shamelhashem17@gmail.com"></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="instructor-card"> <!-- Mostafa Ayman-->
-                <img src="images/instructors/mostafa aymen.jpg" alt="">
-                <div class="instructor-info">
-                    <p class="name">Mostafa Aymen</p>
-                    <p class="branch">Embedded system Instructor</p>
-                    <div class="social">
-                        <a class="fa-brands fa-facebook"
-                            href="https://www.facebook.com/mostafa.aymen.75?mibextid=ZbWKwL"></a>
-
-                        <a class="fa-brands fa-linkedin"
-                            href="https://www.linkedin.com/in/mostafa-ayman-a804a119a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"></a>
-
-                        <a class="fa-regular fa-envelope" href="mostafaaymen109@gmail.com"></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="instructor-card"> <!--Mohamed Elsayed-->
-                <img src="images/instructors/mohamed sayed.jpg" alt="">
-                <div class="instructor-info">
-                    <p class="name">Mohamed Sayed</p>
-                    <p class="branch">Flutter Instructor</p>
-                    <div class="social">
-                        <a class="fa-brands fa-facebook"
-                            href="https://www.facebook.com/profile.php?id=100012447150045&mibextid=ZbWKwL"></a>
-
-                        <a class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/mohamed-sayed74"></a>
-
-                        <a class="fa-regular fa-envelope" href="mohammedsayed7414@gmail.com"></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="instructor-card"> <!-- Omar Abdelmoniem-->
-                <img src="images/instructors/omar_problem.jpg" alt="">
-                <div class="instructor-info">
-                    <p class="name">Omar Abd-Elmoneim</p>
-                    <p class="branch">Problem Solving Instructor</p>
-                    <div class="social">
-                        <a class="fa-brands fa-facebook" href="https://www.facebook.com/om.amoneim?mibextid=dGKdO6"></a>
-
-                        <a class="fa-brands fa-linkedin"
-                            href="https://www.linkedin.com/in/omar-abdullmoniem-10238120b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"></a>
-
-                        <a class="fa-regular fa-envelope" href="srocrazywarrior@gmail.com"></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="instructor-card"> <!-- Omar Ayman-->
-                <img src="images/instructors/omar aymen.jpg" alt="">
-                <div class="instructor-info">
-                    <p class="name">Omar Ayman</p>
-                    <p class="branch">Problem Solving Instructor</p>
-                    <div class="social">
-                        <a class="fa-brands fa-facebook"
-                            href="https://www.facebook.com/omaraymanatia?mibextid=dGKdO6"></a>
-
-                        <a class="fa-brands fa-linkedin"
-                            href="https://www.linkedin.com/in/omar-ayman-61735522b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"></a>
-
-                        <a class="fa-regular fa-envelope" href="omaraymanatia@gmail.com"></a>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
 
+        <div class="instructor-card">
+          <!-- Mohamed Osama-->
+          <img src="images/instructors/mohamed eid.jpg" alt="" />
+          <div class="instructor-info">
+            <p class="name">Mohamed Osama</p>
+            <p class="branch">Arduino & Robotics instructor</p>
+            <div class="social">
+              <a
+                class="fa-brands fa-facebook"
+                href="https://www.facebook.com/mohamedelnemr6"
+              ></a>
+
+              <a
+                class="fa-brands fa-linkedin"
+                href="https://www.linkedin.com/in/mohamed-eid-1657b9254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              ></a>
+
+              <a
+                class="fa-regular fa-envelope"
+                href="hamaozil1666@gmail.com"
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="instructor-card">
+          <!-- Shamel-->
+          <img src="images/instructors/shamel.jpg" alt="" />
+          <div class="instructor-info">
+            <p class="name">Shamel Hashem</p>
+            <p class="branch">C instructor</p>
+            <div class="social">
+              <a
+                class="fa-brands fa-facebook"
+                href="https://www.facebook.com/shamel.hashem.1?sfnsn=scwspwa&mibextid=RUbZ1f"
+              ></a>
+
+              <a
+                class="fa-brands fa-linkedin"
+                href="https://www.linkedin.com/in/shamel-hashem-41a959226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              ></a>
+
+              <a
+                class="fa-regular fa-envelope"
+                href="shamelhashem17@gmail.com"
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="instructor-card">
+          <!-- Mostafa Ayman-->
+          <img src="images/instructors/mostafa aymen.jpg" alt="" />
+          <div class="instructor-info">
+            <p class="name">Mostafa Aymen</p>
+            <p class="branch">Embedded system Instructor</p>
+            <div class="social">
+              <a
+                class="fa-brands fa-facebook"
+                href="https://www.facebook.com/mostafa.aymen.75?mibextid=ZbWKwL"
+              ></a>
+
+              <a
+                class="fa-brands fa-linkedin"
+                href="https://www.linkedin.com/in/mostafa-ayman-a804a119a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              ></a>
+
+              <a
+                class="fa-regular fa-envelope"
+                href="mostafaaymen109@gmail.com"
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="instructor-card">
+          <!--Mohamed Elsayed-->
+          <img src="images/instructors/mohamed sayed.jpg" alt="" />
+          <div class="instructor-info">
+            <p class="name">Mohamed Sayed</p>
+            <p class="branch">Flutter Instructor</p>
+            <div class="social">
+              <a
+                class="fa-brands fa-facebook"
+                href="https://www.facebook.com/profile.php?id=100012447150045&mibextid=ZbWKwL"
+              ></a>
+
+              <a
+                class="fa-brands fa-linkedin"
+                href="https://www.linkedin.com/in/mohamed-sayed74"
+              ></a>
+
+              <a
+                class="fa-regular fa-envelope"
+                href="mohammedsayed7414@gmail.com"
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="instructor-card">
+          <!-- Omar Abdelmoniem-->
+          <img src="images/instructors/omar_problem.jpg" alt="" />
+          <div class="instructor-info">
+            <p class="name">Omar Abd-Elmoneim</p>
+            <p class="branch">Problem Solving Instructor</p>
+            <div class="social">
+              <a
+                class="fa-brands fa-facebook"
+                href="https://www.facebook.com/om.amoneim?mibextid=dGKdO6"
+              ></a>
+
+              <a
+                class="fa-brands fa-linkedin"
+                href="https://www.linkedin.com/in/omar-abdullmoniem-10238120b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+              ></a>
+
+              <a
+                class="fa-regular fa-envelope"
+                href="srocrazywarrior@gmail.com"
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="instructor-card">
+          <!-- Omar Ayman-->
+          <img src="images/instructors/omar aymen.jpg" alt="" />
+          <div class="instructor-info">
+            <p class="name">Omar Ayman</p>
+            <p class="branch">Problem Solving Instructor</p>
+            <div class="social">
+              <a
+                class="fa-brands fa-facebook"
+                href="https://www.facebook.com/omaraymanatia?mibextid=dGKdO6"
+              ></a>
+
+              <a
+                class="fa-brands fa-linkedin"
+                href="https://www.linkedin.com/in/omar-ayman-61735522b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+              ></a>
+
+              <a
+                class="fa-regular fa-envelope"
+                href="omaraymanatia@gmail.com"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="partner">
-        <div class="container">
-            <div class="title">
-                <p>
-                    Our Partner.
-                </p>
-            </div>
-            <img src="images/other-components/line.webp" alt="">
+      <div class="container">
+        <div class="title">
+          <p>Our Partner.</p>
         </div>
+        <img src="images/other-components/line.webp" alt="" />
+      </div>
 
-        <div class="partner-image">
-            <img src="images/partner/TSALEX23 Facebook Cover.jpg" alt="">
-        </div>
+      <div class="partner-image">
+        <img src="images/partner/TSALEX23 Facebook Cover.jpg" alt="" />
+      </div>
     </div>
 
     <div class="experience">
