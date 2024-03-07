@@ -1055,3 +1055,45 @@ footer {
 .our-committes .cards .card-committe .content-committes a:hover {
     color: #1c61e0;
 }
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quotes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.quote-container {
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.quote-container > .photo {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+.quote-container > .quote {
+    font-style: italic;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.quote-container > .owner {
+    text-align: right;
+    margin-top: 10px;
+    color: var(--blue);
+    font-family: var(--e-global-typography-accent-font-family);
+}
