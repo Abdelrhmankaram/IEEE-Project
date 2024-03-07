@@ -870,3 +870,138 @@ body > div > div.row > div:hover{
     z-index: 10;
 }
 /*----------------------------------------------------------*/
+
+
+
+/* 
+mohamed maher 
+section 2
+committes section
+ */
+
+
+ /* 
+start of section
+---------------------------------------------------------------------------------------- */
+.our-committes{
+    position: relative;
+}
+
+.our-committes .committes h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding: 10px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: #007bff;
+}
+/* .our-committes .committes img{
+    position: absolute;
+    left: 50%;
+    top: 7%;
+    transform: translate(-50%);
+} */
+
+
+/* .our-committes .tech-committes{
+    background-color: bisque;
+}
+
+.our-committes .nontech-committes{
+    background-color: rgb(249, 255, 196);
+} */
+
+.our-committes .cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.our-committes .card-committe{
+    position: relative;
+    width: 250px;
+    margin-top: 10px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.11);
+    transition: all 0.5s;
+    
+}
+
+.our-committes .card-committe:hover{
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.26);
+}
+
+.our-committes .card-committe:hover h2{
+    color: #007bff;
+}
+
+.our-committes .cards .card-committe .image{
+    background-color: #1c61e0;
+}
+.our-committes .cards .card-committe .image img{
+    width: 80%;
+    transform: translate(15%);
+}
+.our-committes .cards .card-committe .content-committes{
+    padding: 20px 20px 25px 30px;
+    background-color: rgb(255, 255, 255);
+}
+.our-committes .cards .card-committe .content-committes h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    font-family: inherit;
+    font-family: sans-serif;
+    padding: 10px 0;
+    transition: all 0.5s;
+}
+.our-committes .cards .card-committe .content-committes p{
+    margin: 0 0 25px;
+    color: #5a5a5a;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+    
+}
+
+
+.our-committes .cards .card-committe .content-committes a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #222222;
+    text-decoration: none !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: black;
+    position: relative;
+    transition:all 0.4s;
+    padding: 5px;
+}
+
+
+
+/* في مشكلة هنا في ال transition لو حد هيعرف يصلحها  */
+.our-committes .cards .card-committe .content-committes a::after{
+    content: "";
+    position: absolute;
+    /* width: 95%%;  */
+    height: 3px;
+    left: 4px;
+    bottom: -2px;
+    border-radius: 5px;
+    background-color: #1c61e0; 
+    transition: all 0.5s;
+}
+
+.our-committes .cards .card-committe .content-committes a:hover::after{
+    width: 95%;
+} 
+
+
+
+.our-committes .cards .card-committe .content-committes a:hover{
+    color: #1c61e0;
+}
+
+/* 
+end of section
+---------------------------------------------------------------------------------------- */
