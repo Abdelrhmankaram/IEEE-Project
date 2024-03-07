@@ -949,7 +949,6 @@ footer {
     padding: 5px;
 }
 
-/* في مشكلة هنا في ال transition لو حد هيعرف يصلحها  */
 .our-committes .cards .card-committe .content-committes a::after {
     content: "";
     position: absolute;
@@ -959,10 +958,14 @@ footer {
     border-radius: 5px;
     background-color: #1c61e0;
     transition: all 0.5s;
+    width: 95%;
+    opacity: 0;
+    transform: translateY(5px);
 }
 
 .our-committes .cards .card-committe .content-committes a:hover::after {
-    width: 95%;
+    opacity: 1;
+    transform: translateY(-3px);
 }
 
 .our-committes .cards .card-committe .content-committes a:hover {
