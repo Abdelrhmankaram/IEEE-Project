@@ -78,7 +78,7 @@ a {
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
-    margin-right: 87px
+    margin-right: 87px;
 }
 
 .awaited-event>.container-awaited>.event-outcomes {
@@ -350,7 +350,6 @@ body>div.our-latest-event>div>div>div.right-item>div.down>button>a {
 
 .content-act .right-item {
     margin-left: 18%;
-    /* margin-right: 15%; */
     text-align: left;
 }
 
@@ -370,7 +369,6 @@ h2 {
     box-shadow: 5px 10px 8px #888888;
     margin-left: 30%;
 }
-/***************************************/
 .left-item-2{
     width: 135%;
 }
@@ -385,7 +383,7 @@ h2 {
     border-radius: 40px;
   box-shadow: 5px 10px 8px #888888; 
 }
-/****************************************/
+
 .left-item-3{
     width: 250%;
 }
@@ -398,7 +396,7 @@ h2 {
 .activities>.container-activities>.button-56{
     margin-left: 46%;
 }
-/*End of activities----->>>>>>>*/
+
 .our-latest-event{
     padding: 50px;
 }
